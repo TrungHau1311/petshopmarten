@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+*{scroll-behavior: smooth}
+#Products-3
+{
+	background-image: url( "../images/Marten - Pet Food Shopify Theme_files/24377-2560x1600-desktop-hd-dog-wallpaper.jpg" ); 
+	background-position: center center, center center;
+	background-size: cover, cover;  
+	background-repeat: repeat, repeat
+}
+#BG
+{
+	background-image: url( "../images/Marten - Pet Food Shopify Theme_files/24377-2560x1600-desktop-hd-dog-wallpaper.jpg" ); 
+	background-position: center center, center center;
+	background-size: cover, cover;  
+	background-repeat: repeat, repeat
+}
+#Home,.carousel,.bg-vang
+{
+	background-color:antiquewhite
+}
+#Products
+{
+	background-color:rgba(157,157,157,0.50)
+}
+#Contact-Us
+{
+	background-color:rgba(157,157,157,0.50)
+}
+.bg-dark-50
+{
+	background-color: rgba(0,0,0,0.50)
+}
+h1,h2
+{
+	 font-family: "Mitr", serif;
+	color:#FFFFFF;
+}
+h4
+{
+	font-family: "Mitr", serif;
+}
+h6
+{
+	 font-family: "Mitr", serif;
+}
+h3, h5
+{
+	font-family:"Pacifico", serif;
+}
+h1{ font-size: 60px}
+h2{ font-size: 45px}
+h3{ font-size: 40px}
+h4{font-size: 35px}
+h5{font-size: 30px}
+h6{font-size: 25px}
+h1,h2,h3,h4,h5,h6
+{ 
+	margin-top: 0; 
+	margin-bottom: 5px
+}
+p
+{ 
+	font-family: 'Nunito';
+	font-size: 15px;
+	color: rgba(0,0,0,0.5)
+}
+.text-primary
+{
+	color:rgba(255,255,255,1.00)
+}
+
+nav .menu{
+}
+nav .menu ul
+{
+	list-style: none; 
+	margin: 0;
+	padding: 0
+}
+nav .menu ul li
+{
+	position: relative;
+		z-index: 9999;
+}
+nav .menu ul li a
+{
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: 0px solid #ddd;
+	display: block;
+	color:#E7E7E7;
+}
